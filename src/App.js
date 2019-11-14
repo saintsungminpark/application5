@@ -89,7 +89,7 @@ export default function App() {
                 setSelectedPark(park);
               }}
             >
-              <img src="/skateboarding.svg" alt="Skate Park Icon" />
+              <img src="./skateboarding.svg" alt="Skate Park Icon" />
             </button>
           </Marker>
         ))}
