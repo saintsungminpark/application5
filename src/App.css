@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.mapboxgl-popup-content {
+  position: relative;
+  background: rgba(255, 255, 255, 0.9) !important;
+  border-radius: 0px !important;
+  box-shadow: none !important;
+  padding: 10px 40px 10px 10px !important;
+  pointer-events: auto;
+}
+
+.mapboxgl-popup-content:hover {
+  background: rgba(255, 255, 255, 1) !important;
+  border-radius: 0px !important;
+  padding: 10px 40px 10px 10px !important;
+  box-shadow: none !important;
+  pointer-events: auto;
+}
+
+.title {
+  font-size: 12px;
+  margin: 0;
+}
+
+.discript {
+  font-size: 12px;
+  margin: 0;
+}
+
+.mapboxgl-popup-close-button {
+  border-radius: 0 !important;
+  cursor: pointer;
+  background-color: red !important;
+  color: white !important;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 2px 9px 5px !important;
+}
+
+.mapboxgl-popup-close-button:hover{
+  /* background-color: rgba(255, 0, 0, 0) !important; */
+  color: black !important;
+}
+
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+  border-top-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+
+.mapboxgl-ctrl-attrib-inner {
+  display: none !important;
+}
+
+.mapboxgl-ctrl-group:not(:empty) {
+  box-shadow: none !important;
+}
+
+.mapboxgl-ctrl-group {
+  border-radius: 0 !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+
+.mapboxgl-ctrl-group > button:focus:last-child {
+  border-radius: 0 !important;
+}
+
+.mapboxgl-ctrl-group > button:focus {
+  box-shadow: none !important;
+}
+
+.nav {
+  z-index: 1;
+}
+
+.mapboxgl-user-location-dot::after {
+  border-radius: 50%;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.mapboxgl-user-location-dot::before {
+  animation: mapboxgl-user-location-dot-pulse 1s infinite !important;
+}
