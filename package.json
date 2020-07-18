@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "i": "^0.3.6",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-map-gl": "^5.1.2",
